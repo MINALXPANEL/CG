@@ -23,10 +23,13 @@ header {
     top: 0;
 }
 
-.logo {
+.logo a {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: white;
 }
+
 
 .logo img {
     width: 40px;
