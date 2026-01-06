@@ -1,4 +1,4 @@
-/* ===== BASIC RESET ===== */
+/* Basic reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +6,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ===== BODY ===== */
+/* Body style */
 body {
-    background-color: #1e1e2f;
-    color: #f1f1f1;
+    background-color: #1b1b2b;
+    color: #ffffff;
 }
 
-/* ===== HEADER ===== */
+/* Header */
 header {
     background-color: #141427;
     padding: 15px 40px;
@@ -21,15 +21,14 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 100;
 }
 
-/* ===== LOGO ===== */
+/* Logo */
 .logo a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #f1f1f1;
+    color: white;
 }
 
 .logo img {
@@ -37,65 +36,57 @@ header {
     margin-right: 10px;
 }
 
-.logo a:hover {
-    opacity: 0.85;
-}
-
-/* ===== NAVIGATION ===== */
+/* Navigation */
 nav a {
-    color: #f1f1f1;
+    color: white;
     text-decoration: none;
-    margin-left: 25px;
-    font-size: 16px;
+    margin-left: 20px;
 }
 
 nav a:hover {
-    color: #7dd3fc;
+    text-decoration: underline;
 }
 
-/* ===== SECTIONS ===== */
+/* Sections */
 section {
-    padding: 70px 40px;
     min-height: 100vh;
-    background-color: #25253a;
+    padding: 60px 40px;
+    background-color: #1f1f33;
 }
 
+/* Headings */
 section h1 {
-    font-size: 32px;
     margin-bottom: 15px;
 }
 
+/* Paragraphs */
 section p {
     max-width: 750px;
     line-height: 1.6;
-    color: #e5e7eb;
 }
 
-/* ===== HOME CENTER ===== */
+/* Home center alignment */
 #home {
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
-/* ===== VIDEO ===== */
+/* Video */
 .video-box {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 video {
     width: 100%;
     max-width: 700px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
 }
 
-/* ===== FOOTER ===== */
+/* Footer */
 footer {
     background-color: #141427;
-    color: #f1f1f1;
     text-align: center;
     padding: 15px;
     font-size: 14px;
