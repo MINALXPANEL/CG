@@ -80,3 +80,17 @@ footer {
     padding: 15px;
     font-size: 14px;
 }
+
+/* ===== HOME SECTION CENTER ===== */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home p {
+    margin-top: 10px;
+    font-size: 17px;
+}
