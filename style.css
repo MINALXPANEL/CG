@@ -23,7 +23,7 @@ header {
     top: 0;
 }
 
-.logo a {
+.logo {
     display: flex;
     align-items: center;
     text-decoration: none;
